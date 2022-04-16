@@ -8,7 +8,7 @@ import { fetchContacts } from "./services/api";
 
 function App () {
   const dispatch = useDispatch();
-  useEffect(() => { dispatch(fetchContacts()); }, []);
+  useEffect(() => { dispatch(fetchContacts()); });
 
   return (
       <div>
@@ -20,7 +20,7 @@ function App () {
           
       </div>
   );
-}
+};
 
 export default App;
 
